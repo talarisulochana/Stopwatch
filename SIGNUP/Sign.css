@@ -1,0 +1,144 @@
+ *{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wp3458025.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.Data{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+     height: 100vh;
+}
+#SignupForm {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+   
+}
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    background-color:brown;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(25, 188, 25);
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a p{
+    margin: 5px 0px;
+    color: blue;
+        
+}
+.links p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+.error{
+    color: red;
+    font-size: 0.9rem;
+}
+i{
+    color:red;
+} 
+ 
+
+@media screen and (max-width:424px){
+ #SignupForm {    
+     padding: 10px;  
+    }
+    h2 {
+       font-size: 1.2rem;   
+    }
+    label {
+        font-size: 12px;
+    }
+    button {
+        
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+@media screen and (min-width:425px) and (max-width:767px){ 
+    #SignupForm {
+        width: 80%;
+        padding: 15px; 
+    }
+    h2 {
+        font-size: i.5rem;   
+    }
+    label {
+       
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+   
+    #SignupForm {
+        width: 90%;
+        padding: 15px;   
+       
+    }
+    h2 {
+        font-size: 1.5rem;
+        
+    } 
+    label {
+
+        font-size: 14px;
+    }
+    button {
+        
+        font-size: 14px;
+    }
+}

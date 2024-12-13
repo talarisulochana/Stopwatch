@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="Sign.css">
+</head>
+<body>
+  
+ <div class="Data">
+  <form id="SignupForm">
+    <h2>Signup</h2>
+    <label for="name"><i class="fa-solid fa-user"></i> Name:</label><br>
+    <input type="text" id="name" name="name" required>
+    <span class="error" id="nameError"></span><br><br>
+
+    <label for="email"><i class="fa-solid fa-envelope"></i> Email:</label><br>
+    <input type="email" id="email" name="email" required>
+    <span class="error" id="emailError"></span><br><br>
+
+    <label for="password"> <i class="fa-solid fa-lock"></i>  Password:</label><br>
+    <input type="password" id="password" name="password" required>
+    <span class="error" id="passwordError"></span><br><br>
+
+    <button type="submit">Submit</button>
+    <p class="success" id="successMessage"></p>
+
+   <div class="links">
+    <p>Don't have an account?<a href="../LOGIN/Login.html">Login</a></p>
+   </div>
+  </form>
+
+ </div>
+  <script src="Signup.js"></script>
+</body>
+</html>

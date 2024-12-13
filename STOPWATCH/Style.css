@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    background-color: gray;
+    color: white;
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column;
+}
+
+.stopwatch{
+background-color: black;
+padding: 15px 20px;
+border-radius: 10px;
+}
+
+.timerDisplay{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+ .btn{
+    background: none;
+    border: none; 
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+} 
+
+#startBtn{
+    background-color: green;
+}
+#stopBtn{
+    background-color: red;
+}
+#resetBtn{
+    background-color: blue;
+}
+
+@media screen and (max-width:424px){
+    .stopwatch{
+        padding: 15px 20px;
+        border-radius: 8px;
+        }
+
+    .timerDisplay{
+        font-size: 40px;  
+    }
+     .btn{
+        font-size: 16px;
+        padding: 8px 12px;
+
+    } 
+    
+   }
+   @media screen and (min-width:425px) and (max-width:767px) {
+    .stopwatch{
+        padding: 15px 25px;
+        }
+
+    .timerDisplay{
+        font-size: 50px;  
+    }
+     .btn{
+        font-size: 18px;
+        padding: 10px 15px;
+        
+    } 
+          
+   }
+   @media screen and (min-width:768px) and (max-width:1024px){
+    .stopwatch{
+        padding: 20px 30px;
+
+        }
+
+    .timerDisplay{
+        font-size: 55px;  
+    }
+     .btn{
+        font-size: 20px;
+        padding: 12px 20px;
+       
+    } 
+      
+
+   }
+   
